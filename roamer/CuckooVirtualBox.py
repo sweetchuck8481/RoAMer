@@ -25,7 +25,7 @@ class CuckooVirtualBox(object):
     ERROR = "machete"
 
     def __init__(self, headless):
-        self.vbox_manage_path = "/usr/bin/VBoxManage"
+        self.vbox_manage_path = "C:\Program Files\Oracle\VirtualBox\VBoxManage"
         self.status = None
         if headless:
             self.mode = "headless"
